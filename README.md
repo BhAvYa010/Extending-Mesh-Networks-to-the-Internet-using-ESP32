@@ -4,11 +4,12 @@ The mesh network works by routing traffic through the different nodes. If one no
 
 The mesh network can be used for a variety of applications, such as:
 
+
 * Providing internet access in areas where there is no traditional internet infrastructure
 * Creating a wireless sensor network
 * Building a smart home network
 * Creating a mesh WiFi network to extend the coverage of an existing WiFi network
-
+![chatuml-diagram](https://github.com/BhAvYa010/Extending-Mesh-Networks-to-the-Internet-using-ESP32/assets/96838352/70be7fbe-7c46-48c2-9057-6a7b997811bd)
 ## How the mesh network in the image works
 
 The first ESP32 microcontroller is connected to the internet via a WiFi interface. This ESP32 microcontroller acts as the gateway for the mesh network. It is responsible for routing traffic between the mesh network and the internet.
