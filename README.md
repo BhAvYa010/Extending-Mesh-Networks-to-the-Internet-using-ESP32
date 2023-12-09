@@ -1,4 +1,6 @@
-![chatuml-diagram (1)](https://github.com/BhAvYa010/Extending-Mesh-Networks-to-the-Internet-using-ESP32/assets/96838352/b289b5f2-5ec3-4388-a5d2-7c333669ce73)The image is a block diagram of a mesh network connected to the internet. The mesh network consists of four ESP32 microcontrollers, each of which is connected to the next using a UART interface. The first ESP32 microcontroller is connected to the internet via a WiFi interface.
+![chatuml-diagram (1)](https://github.com/BhAvYa010/Extending-Mesh-Networks-to-the-Internet-using-ESP32/assets/96838352/b289b5f2-5ec3-4388-a5d2-7c333669ce73)
+
+The image is a block diagram of a mesh network connected to the internet. The mesh network consists of four ESP32 microcontrollers, each of which is connected to the next using a UART interface. The first ESP32 microcontroller is connected to the internet via a WiFi interface.
 
 The mesh network works by routing traffic through the different nodes. If one node is unavailable, the traffic will be routed through another node. This makes the mesh network very resilient to failures.
 
@@ -11,7 +13,6 @@ The mesh network can be used for a variety of applications, such as:
 * Creating a mesh WiFi network to extend the coverage of an existing WiFi network
 
 ## How the mesh network in the image works
-![chatuml-diagram](https://github.com/BhAvYa010/Extending-Mesh-Networks-to-the-Internet-using-ESP32/assets/96838352/b72546ee-d0ce-4263-af0e-f919c6889f51)
 
 The first ESP32 microcontroller is connected to the internet via a WiFi interface. This ESP32 microcontroller acts as the gateway for the mesh network. It is responsible for routing traffic between the mesh network and the internet.
 
